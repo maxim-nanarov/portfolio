@@ -14,7 +14,7 @@ function App() {
   return (
     <div>
       <header>
-        <Navbar bg="dark" variant="dark">
+        <Navbar className="dark-green-background" bg="success" variant="dark">
           <Container>
             <Navbar.Brand href="#home">
               <svg

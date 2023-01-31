@@ -1,16 +1,21 @@
 @import "~bootstrap/scss/bootstrap";
-
+$color-green: rgb(19, 75, 17);
+$color-white: rgb(255, 255, 255);
 .MyPic {
   border-radius: 50%;
   box-shadow: 1.5px 10px 10px rgba(53, 53, 53, 0.459);
 }
 
+.dark-green-background {
+  background-color: $color-green !important;
+}
+
 .top-div {
   display: flex;
   align-items: center;
-  background-color: gray;
+  background-color: $color-white;
   justify-content: space-evenly;
-  color: rgb(120, 216, 216);
+  color: rgb(0, 0, 0);
   height: 20%;
   p {
     display: inline;
@@ -22,13 +27,13 @@
   display: flex;
   color: rgb(255, 255, 255);
   height: 20%;
-  background-color: rgba(0, 0, 0, 0.795);
+  background-color: $color-green;
   .cutted {
     height: 50%;
     width: 50%;
     img {
-      width: 400px;
-      height: 300px;
+      width: 600px;
+      height: 450px;
       -webkit-clip-path: polygon(10px, 10px, 10px);
       clip-path: polygon(0 0, 75% 0, 100% 100%, 0 100%);
     }
@@ -42,13 +47,13 @@
 }
 .The-Show-two {
   display: flex;
-  color: rgb(120, 216, 216);
+  color: rgb(0, 0, 0);
   height: 20%;
-  background-color: gray;
+  background-color: $color-white;
   .cutted {
     img {
-      width: 400px;
-      height: 300px;
+      width: 600px;
+      height: 450px;
       -webkit-clip-path: polygon(10px, 10px, 10px);
       clip-path: polygon(0 0, 100% 0, 100% 100%, 15% 100%);
     }
@@ -65,11 +70,11 @@
 
 .footer-style {
   padding-top: 5%;
-  background: rgb(0, 0, 0);
+  background: $color-green;
   background: linear-gradient(
     180deg,
-    rgba(0, 0, 0, 0.79) 20%,
-    rgba(0, 0, 0, 1) 100%
+    rgba(19, 75, 17, 0.79) 20%,
+    rgb(19, 75, 17) 100%
   );
   color: white;
   width: 100%;
@@ -92,7 +97,7 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background-color: rgba(0, 0, 0, 0.795);
+  background-color: $color-green;
   padding-bottom: 3%;
   p {
     width: 60%;
@@ -103,10 +108,10 @@
 }
 
 .Vehicle-Hatzerim {
-  background-color: #808080;
+  background-color: $color-white;
   padding-top: 2%;
   display: flex;
-  color: rgb(120, 216, 216);
+  color: rgb(0, 0, 0);
 
   flex-direction: column;
   justify-content: center;
@@ -135,11 +140,11 @@
 }
 
 .Python-Projects {
-  background: rgb(128, 128, 128);
+  background: rgb(255, 255, 255);
   background: linear-gradient(
     180deg,
-    rgba(128, 128, 128, 1) 20%,
-    rgba(0, 0, 0, 0.79) 100%
+    rgba(255, 255, 255, 0.2),
+    rgba(19, 75, 17, 0.79) 100%
   );
   color: white;
   padding-top: 3%;
