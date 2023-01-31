@@ -3,7 +3,9 @@ import "./style.scss";
 import Container from "react-bootstrap/Container";
 import Navbar from "react-bootstrap/Navbar";
 import Me from "./ProjectsPhotos/myPhotos/Me.png";
-import envelopeicon from "./ProjectsPhotos/icons/envelope.svg";
+import CalculatorSelect from "./ProjectsPhotos/Calculator-Netafim/TheChosenCalculatorPicture.png";
+import EcommerceOne from "./ProjectsPhotos/Ecommerce/theChosenEcommercePicture.png";
+import VehicleHatzerimPic from "./ProjectsPhotos/Vehicle-Hatzerim/TheChosenVehicleHatzerimPicture.png";
 
 function App() {
   return (
@@ -59,10 +61,11 @@ function App() {
                 <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z" />
               </svg>
             </Navbar.Brand>
-            <Navbar.Brand href="#home">React Bootstrap</Navbar.Brand>
+            <Navbar.Brand>Maxim Nanarov</Navbar.Brand>
           </Container>
         </Navbar>
-        <div className="display-flex centrelize grey-Background">
+        <div className="top-div">
+          <h1>Maxim Nanarov</h1>
           <img
             className="MyPic"
             src={Me}
@@ -70,9 +73,84 @@ function App() {
             height={250}
             width={250}
           />
-          <h1>Maxim Nanarov</h1>
+          <p>
+            A starting web developer who uses his tools to the max! <br></br> In
+            this Protfolio, you'll see demonstarions from the projects I have
+            made. <br></br> If you'd like to contact me all of my details are at
+            the top of the page
+          </p>
         </div>
       </header>
+      <div>
+        <div className="The-Show">
+          <div className="cutted">
+            <img alt="Calculator Photo" src={CalculatorSelect}></img>
+          </div>
+          <div className="Explenation">
+            <p>
+              <h3>The Calculator Project</h3>
+              At the Time I worked in Netafim,I was given the task of creating a
+              windows application<br></br>
+              which it's purpose is to calculate the pressure and flow rate
+              <br></br>
+              of a tube with drippers in it.<br></br>
+            </p>
+          </div>
+        </div>
+        <div className="The-Show-two">
+          <div className="Explenation">
+            <p>
+              <h3>My First Ecommerce</h3>
+              After I enlisted from the army, I wanted to join to a course that
+              will help me find my first job in the high-tech industry. I found
+              a course from scale-up and it's name was Cyber4s. After only two
+              month's in, with no experience in this world I created this
+              ecommerce Right here.
+            </p>
+          </div>
+          <div className="cutted">
+            <img alt="Ecommerce Photo" src={EcommerceOne}></img>
+          </div>
+        </div>
+        <div className="Seperator">
+          <h3>About Me</h3>
+          <p>
+            As I served in the army, there was a saying that "One can get to his
+            destination fast, but many will reach far as one could never dream"
+            I learned taht team work can make the dreamwork by working hard with
+            people in the most unbelivable conditions that there is.<br></br>
+            And of course, if I can, I'm working with as many people as I can
+            even today, I see teamwork as a MUST for achiving the best results
+            that we can get.
+          </p>
+        </div>
+        <div className="Vehicle-Hatzerim">
+          <img alt="Vehicle-Hatzerim Picture" src={VehicleHatzerimPic}></img>
+          <h1>Vehicle Hatzerim</h1>
+          <p>
+            Vehicle Hatzerim - An app that will help to coorolate with 700
+            members that need to use a fleet of vehicles that is assembled from
+            ~120 vehicles.<br></br> Vehicle Hatzerim was my last project in the
+            course which I continued while seeking for a job.<br></br>
+            <br></br> In this project I Practiced with these technologies:
+            <br></br>
+            React <br></br>scss <br></br>express <br></br>postgress <br></br>
+            heroku<br></br>
+            <br></br>
+            for the first time in order to become the best at these
+            technologies.<br></br>I wanted to make a newer service for one we
+            allready had. Unfortunatly, I couldnt finish it because I allready
+            started to work in Netafim.
+          </p>
+        </div>
+      </div>
+      {/* <footer className="footer">
+        <div>
+          <div>a place for authenticity</div>
+          <div>a place for contacting</div>
+        </div>
+        <h5>Maxim Nanarov</h5>
+      </footer> */}
     </div>
   );
 }

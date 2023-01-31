@@ -2,14 +2,114 @@
 
 .MyPic {
   border-radius: 50%;
-}
-.display-flex {
-  display: flex;
-}
-.centrelize {
-  align-items: center;
+  box-shadow: 1.5px 10px 10px rgba(53, 53, 53, 0.459);
 }
 
-.grey-Background {
+.top-div {
+  display: flex;
+  align-items: center;
   background-color: gray;
+  justify-content: space-evenly;
+  color: rgb(120, 216, 216);
+  height: 20%;
+  p {
+    display: inline;
+    width: 30%;
+  }
+}
+
+.The-Show {
+  display: flex;
+  color: rgb(255, 255, 255);
+  height: 20%;
+  background-color: rgba(0, 0, 0, 0.486);
+  .cutted {
+    height: 50%;
+    width: 50%;
+    img {
+      width: 400px;
+      height: 300px;
+      -webkit-clip-path: polygon(10px, 10px, 10px);
+      clip-path: polygon(0 0, 75% 0, 100% 100%, 0 100%);
+    }
+  }
+  .Explenation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5%;
+  }
+}
+.The-Show-two {
+  display: flex;
+  color: rgb(120, 216, 216);
+  height: 20%;
+  background-color: gray;
+  .cutted {
+    img {
+      width: 400px;
+      height: 300px;
+      -webkit-clip-path: polygon(10px, 10px, 10px);
+      clip-path: polygon(0 0, 100% 0, 100% 100%, 15% 100%);
+    }
+  }
+  .Explenation {
+    display: flex;
+    align-items: center;
+    margin-left: 10%;
+    p {
+      width: 50%;
+    }
+  }
+}
+
+.footer {
+  color: white;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  div {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+  }
+}
+
+.Seperator {
+  padding-top: 3%;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgba(0, 0, 0, 0.486);
+  p {
+    width: 60%;
+
+    color: white;
+    font-size: large;
+  }
+}
+
+.Vehicle-Hatzerim {
+  background-color: gray;
+  padding-top: 2%;
+  display: flex;
+  color: rgb(120, 216, 216);
+
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  img {
+    width: 40%;
+    height: 30%;
+  }
+  p {
+    width: 40%;
+
+    font-size: large;
+  }
 }
