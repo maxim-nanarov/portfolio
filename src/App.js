@@ -8,6 +8,7 @@ import EcommerceOne from "./ProjectsPhotos/Ecommerce/theChosenEcommercePicture.p
 import VehicleHatzerimPic from "./ProjectsPhotos/Vehicle-Hatzerim/TheChosenVehicleHatzerimPicture.png";
 import PlanetWars from "./ProjectsPhotos/Planet-Wars/PlanetWars.png";
 import SpaceInvaders from "./ProjectsPhotos/Space-Invaders/TheGameBetter.png";
+import logo from "./ProjectsPhotos/myPhotos/Logo.png";
 // import SpaceInvaders from "";
 
 function App() {
