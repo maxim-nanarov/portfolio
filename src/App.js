@@ -121,8 +121,9 @@ function App() {
           <p>
             As I served in the army, there was a saying that "One can get to his
             destination fast, but many will reach far as one could never dream"
-            I learned taht team work can make the dreamwork by working hard with
-            people in the most unbelivable conditions that there is.<br></br>
+            I learned that team work can make the dreamwork. By completing our
+            task in unbelivable conditions.
+            <br></br>
             And of course, if I can, I'm working with as many people as I can
             even today, I see teamwork as a MUST for achiving the best results
             that we can get.
@@ -198,7 +199,7 @@ function App() {
       </div>
       <footer className="footer-style">
         <div>
-          <div>Last Updated: 31/01/2023</div>
+          <div></div>
           <div className="testing">
             <Navbar.Brand href="#home">
               Nanarov123@gmail.com
