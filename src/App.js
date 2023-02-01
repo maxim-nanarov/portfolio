@@ -12,6 +12,7 @@ import HerokuIcon from "./ProjectsPhotos/icons/download.png";
 import ExpressIcon from "./ProjectsPhotos/icons/expressicon.png";
 import PostgressIcon from "./ProjectsPhotos/icons/postgressicon.png";
 import ScssIcon from "./ProjectsPhotos/icons/Scss.svg";
+import myLogo from "./ProjectsPhotos/myPhotos/Logo.png";
 // import SpaceInvaders from "";
 
 function App() {
@@ -79,9 +80,9 @@ function App() {
           />
           <p>
             A starting web developer who uses his tools to the max! <br></br> In
-            this Protfolio, you'll see demonstrations from the projects I have
-            made. <br></br> If you'd like to contact me all of my details are at
-            the top of the page
+            this Portfolio, you'll see demonstrations from the projects I have
+            made. <br></br> If you'd like to contact me, all of my details are
+            at the top of the page
           </p>
         </div>
       </header>
@@ -93,11 +94,9 @@ function App() {
           <div className="Explenation">
             <p>
               <h3>The Calculator Project</h3>
-              At the Time I worked in Netafim,I was given the task of creating a
-              windows application<br></br>
-              which it's purpose is to calculate the pressure and flow rate
-              <br></br>
-              of a tube with drippers in it.<br></br>
+              At the Time I worked in Netafim, I was given the task of creating
+              a windows application which it's purpose is to calculate the
+              pressure and flow rate of a tube with drippers in it.
             </p>
           </div>
         </div>
@@ -107,9 +106,9 @@ function App() {
               <h3>My First Ecommerce</h3>
               After I enlisted from the army, I wanted to join to a course that
               will help me find my first job in the high-tech industry. I found
-              a course from scale-up and it's name was Cyber4s. After only two
-              month's in, with no experience in this world I created this
-              ecommerce Right here.
+              a course from Scale-Up and it's name was Cyber4s. After only two
+              months in, with no experience in this world I created this
+              ecommerce right here.
             </p>
           </div>
           <div className="cutted">
@@ -117,17 +116,22 @@ function App() {
           </div>
         </div>
         <div className="Seperator">
-          <h3>About Me</h3>
-          <p>
-            As I served in the army, there was a saying that "One can get to his
-            destination fast, but many will reach far as one could never dream"
-            I learned that team work can make the dreamwork. By completing our
-            task in unbelivable conditions.
-            <br></br>
-            And of course, if I can, I'm working with as many people as I can
-            even today, I see teamwork as a MUST for achiving the best results
-            that we can get.
-          </p>
+          <div className="cutted">
+            <img src={myLogo}></img>
+          </div>
+          <div className="Explination">
+            <h3>About Me</h3>
+            <p>
+              As I served in the army, there was a saying that "One can get to
+              his destination fast, but many will reach far as one could never
+              dream" I learned that team work can make the dreamwork. By
+              completing our task in unbelivable conditions.
+              <br></br>
+              And of course, if I can, I'm working with as many people as I can
+              even today, I see teamwork as a MUST for achiving the best results
+              that we can get.
+            </p>
+          </div>
         </div>
         <div className="Vehicle-Hatzerim">
           <img alt="Vehicle-Hatzerim " src={VehicleHatzerimPic}></img>
@@ -135,8 +139,8 @@ function App() {
           <p>
             Vehicle Hatzerim - An app that will help to coorolate with 700
             members that need to use a fleet of vehicles that is assembled from
-            ~120 vehicles.<br></br> Vehicle Hatzerim was my last project in the
-            course which I continued while seeking for a job.<br></br>
+            ~120 vehicles. Vehicle Hatzerim was my last project in the course
+            which I continued while seeking for a job.
             <br></br> In this project I Practiced with these technologies:
             <br></br>
           </p>
@@ -162,15 +166,16 @@ function App() {
           </div>
           <p>
             <br></br>
-            While looking for a place to work, I started working on this project
-            voluntarily, with no one from the kibutz asking me to do it, and
-            just seeing how much can I take on myself at that time.
+            While looking for a place to work at, I started working on this
+            project voluntarily with no one from the kibbutz asking me to do it,
+            just to see how much I can take on myself at the time.
             <br></br>
             <br></br>
-            for the first time in order to become the best at these
-            technologies.<br></br>I wanted to make a newer service for one we
-            allready had. Unfortunatly, I couldnt finish it because I allready
-            started to work in Netafim.
+            For the first time I was dealing with a project on that scale, I
+            wanted to make a newer service instead of the one we allready had,
+            in order to become better at these technologies and gain experience.
+            Unfortunatly, I couldnt finish it because I allready started to work
+            in Netafim.
           </p>
         </div>
       </div>
@@ -179,21 +184,21 @@ function App() {
           <img alt="Planet Wars" src={PlanetWars}></img>
           <h3>Planet Wars</h3>
           <p>
-            Once in the middle of the course that I did, We Visisted Pagyea, one
+            Once in the middle of the course that I did, we visisted Pagyea, one
             of the thing we did there was a hackaton. In the hackaton we
-            splitted up for groups of three people, and in order to win we
-            needed to created the smartest AI. We absolutly gave a hard time to
-            every opponent we had, and had a good time, but alas we lost to
-            someone who worked 3 minutes on his ai and didnt expected to win.
+            splitted up for groups of three people and in order to win we needed
+            to creat the smartest AI. We absolutly gave a hard time to every
+            opponent we had and had a good time, but alas we lost to someone who
+            worked 3 minutes on his AI and didnt expected to win.
           </p>
         </div>
         <div className="Specific-Project-Div">
           <img alt="Space Invaders" src={SpaceInvaders}></img>
           <h3>Space Invaders</h3>
           <p>
-            One of Our projects in the course we needed to make a game in
-            python. So we made space invaders, what better use of a good weekend
-            if not creating a legandary game ourselves.
+            For one of our projects in the course we needed to make a game in
+            python. We made space invaders, what better use of a good weekend if
+            not creating a legandary game by ourselves.
           </p>
         </div>
       </div>
