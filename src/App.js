@@ -7,6 +7,11 @@ import EcommerceOne from "./ProjectsPhotos/Ecommerce/theChosenEcommercePicture.p
 import VehicleHatzerimPic from "./ProjectsPhotos/Vehicle-Hatzerim/TheChosenVehicleHatzerimPicture.png";
 import PlanetWars from "./ProjectsPhotos/Planet-Wars/PlanetWars.png";
 import SpaceInvaders from "./ProjectsPhotos/Space-Invaders/TheGameBetter.png";
+import ReactIcon from "./ProjectsPhotos/icons/logoreacticon.png";
+import HerokuIcon from "./ProjectsPhotos/icons/download.png";
+import ExpressIcon from "./ProjectsPhotos/icons/expressicon.png";
+import PostgressIcon from "./ProjectsPhotos/icons/postgressicon.png";
+import ScssIcon from "./ProjectsPhotos/icons/Scss.svg";
 // import SpaceInvaders from "";
 
 function App() {
@@ -133,8 +138,28 @@ function App() {
             course which I continued while seeking for a job.<br></br>
             <br></br> In this project I Practiced with these technologies:
             <br></br>
-            React <br></br>scss <br></br>express <br></br>postgress <br></br>
-            heroku<br></br>
+          </p>
+          <div className="Banner">
+            <img src={ReactIcon} alt="React" />{" "}
+            <label className="React-Label">React</label>
+          </div>
+          <div className="Banner">
+            <img src={ScssIcon} alt="Scss" />{" "}
+            <label className="Scss-Label">Scss</label>
+          </div>
+          <div className="Banner">
+            <img src={ExpressIcon} alt="Express" />{" "}
+            <label className="Express-Label">Express</label>
+          </div>
+          <div className="Banner">
+            <img src={PostgressIcon} alt="postgress" />{" "}
+            <label className="Postgress-Label">postgress</label>
+          </div>
+          <div className="Banner">
+            <img src={HerokuIcon} alt="heroku" />{" "}
+            <label className="Heroku-Label">Heroku</label>
+          </div>
+          <p>
             <br></br>
             While looking for a place to work, I started working on this project
             voluntarily, with no one from the kibutz asking me to do it, and

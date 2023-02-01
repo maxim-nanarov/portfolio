@@ -139,6 +139,38 @@ $color-white: rgb(255, 255, 255);
       width: 40%;
       font-size: large;
     }
+    h1 {
+      padding-top: 2.5%;
+      padding-bottom: 2.5%;
+    }
+  }
+  .Banner {
+    width: 40%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    img {
+      height: 20px;
+      width: 20px;
+    }
+    label {
+      margin-left: 5px;
+    }
+    .React-Label {
+      color: rgb(0, 89, 255);
+    }
+    .Scss-Label {
+      color: rgb(204, 0, 255);
+    }
+    .Express-Label {
+      color: rgb(178, 154, 0);
+    }
+    .Heroku-Label {
+      color: rgb(204, 0, 255);
+    }
+    .Postgress-Label {
+      color: rgb(36, 175, 255);
+    }
   }
 
   .testing {
@@ -177,6 +209,10 @@ $color-white: rgb(255, 255, 255);
       img {
         width: 550px;
         height: 380px;
+      }
+      h3 {
+        padding-top: 2.5%;
+        padding-bottom: 2.5%;
       }
     }
   }
@@ -290,8 +326,6 @@ $color-white: rgb(255, 255, 255);
   }
 
   .Seperator {
-    padding-top: 7.5%;
-
     color: white;
     display: flex;
     flex-direction: column;
@@ -324,6 +358,35 @@ $color-white: rgb(255, 255, 255);
       align-items: center;
       width: 80%;
       font-size: large;
+    }
+  }
+
+  .Banner {
+    width: 80%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    img {
+      height: 20px;
+      width: 20px;
+    }
+    label {
+      margin-left: 5px;
+    }
+    .React-Label {
+      color: rgb(0, 89, 255);
+    }
+    .Scss-Label {
+      color: rgb(204, 0, 255);
+    }
+    .Express-Label {
+      color: rgb(178, 154, 0);
+    }
+    .Heroku-Label {
+      color: rgb(204, 0, 255);
+    }
+    .Postgress-Label {
+      color: rgb(36, 175, 255);
     }
   }
 
@@ -396,4 +459,12 @@ $color-white: rgb(255, 255, 255);
 html,
 body {
   font-family: "Poppins", sans-serif;
+}
+h1 {
+  padding-top: 2.5%;
+  padding-bottom: 2.5%;
+}
+h3 {
+  padding-top: 2.5%;
+  padding-bottom: 2.5%;
 }
