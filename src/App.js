@@ -1,6 +1,5 @@
 import "./style.scss";
 // import Nav from "react-bootstrap/Nav";
-import Container from "react-bootstrap/Container";
 import Navbar from "react-bootstrap/Navbar";
 import Me from "./ProjectsPhotos/myPhotos/Me.png";
 import CalculatorSelect from "./ProjectsPhotos/Calculator-Netafim/TheChosenCalculatorPicture.png";
@@ -8,7 +7,6 @@ import EcommerceOne from "./ProjectsPhotos/Ecommerce/theChosenEcommercePicture.p
 import VehicleHatzerimPic from "./ProjectsPhotos/Vehicle-Hatzerim/TheChosenVehicleHatzerimPicture.png";
 import PlanetWars from "./ProjectsPhotos/Planet-Wars/PlanetWars.png";
 import SpaceInvaders from "./ProjectsPhotos/Space-Invaders/TheGameBetter.png";
-import logo from "./ProjectsPhotos/myPhotos/Logo.png";
 // import SpaceInvaders from "";
 
 function App() {
@@ -85,7 +83,7 @@ function App() {
       <div>
         <div className="The-Show">
           <div className="cutted">
-            <img alt="Calculator Photo" src={CalculatorSelect}></img>
+            <img alt="Calculator " src={CalculatorSelect}></img>
           </div>
           <div className="Explenation">
             <p>
@@ -110,7 +108,7 @@ function App() {
             </p>
           </div>
           <div className="cutted">
-            <img alt="Ecommerce Photo" src={EcommerceOne}></img>
+            <img alt="Ecommerce " src={EcommerceOne}></img>
           </div>
         </div>
         <div className="Seperator">
@@ -126,7 +124,7 @@ function App() {
           </p>
         </div>
         <div className="Vehicle-Hatzerim">
-          <img alt="Vehicle-Hatzerim Picture" src={VehicleHatzerimPic}></img>
+          <img alt="Vehicle-Hatzerim " src={VehicleHatzerimPic}></img>
           <h1>Vehicle Hatzerim</h1>
           <p>
             Vehicle Hatzerim - An app that will help to coorolate with 700
@@ -138,6 +136,11 @@ function App() {
             React <br></br>scss <br></br>express <br></br>postgress <br></br>
             heroku<br></br>
             <br></br>
+            While looking for a place to work, I started working on this project
+            voluntarily, with no one from the kibutz asking me to do it, and
+            just seeing how much can I take on myself at that time.
+            <br></br>
+            <br></br>
             for the first time in order to become the best at these
             technologies.<br></br>I wanted to make a newer service for one we
             allready had. Unfortunatly, I couldnt finish it because I allready
@@ -147,7 +150,7 @@ function App() {
       </div>
       <div className="Python-Projects">
         <div className="Specific-Project-Div">
-          <img src={PlanetWars}></img>
+          <img alt="Planet Wars" src={PlanetWars}></img>
           <h3>Planet Wars</h3>
           <p>
             Once in the middle of the course that I did, We Visisted Pagyea, one
@@ -159,7 +162,7 @@ function App() {
           </p>
         </div>
         <div className="Specific-Project-Div">
-          <img src={SpaceInvaders}></img>
+          <img alt="Space Invaders" src={SpaceInvaders}></img>
           <h3>Space Invaders</h3>
           <p>
             One of Our projects in the course we needed to make a game in

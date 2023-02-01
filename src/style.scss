@@ -8,6 +8,8 @@ $color-white: rgb(255, 255, 255);
   }
 
   .dark-green-background {
+    padding-top: 1%;
+    padding-bottom: 1%;
     display: flex !important;
     justify-content: space-evenly !important;
     align-items: center !important;
@@ -22,6 +24,8 @@ $color-white: rgb(255, 255, 255);
   }
 
   .top-div {
+    padding-top: 1%;
+    padding-bottom: 1%;
     display: flex;
     align-items: center;
     background-color: $color-white;
@@ -388,4 +392,8 @@ $color-white: rgb(255, 255, 255);
       }
     }
   }
+}
+html,
+body {
+  font-family: "Poppins", sans-serif;
 }
