@@ -79,10 +79,14 @@ function App() {
             width={250}
           />
           <p>
-            A starting web developer who uses his tools to the max! <br></br> In
-            this Portfolio, you'll see demonstrations from the projects I have
-            made. <br></br> If you'd like to contact me, all of my details are
-            at the top of the page
+            As an aspiring web developer, you'll be impressed with my portfolio
+            showcasing my projects and technical skills. My dedication to
+            utilizing my tools to their fullest potential is evident in the
+            demonstrations you'll find here. I invite you to take a closer look
+            and explore the possibilities of what I can create. If you're
+            interested in collaborating or simply want to reach out, you'll find
+            my contact information prominently displayed at the top of the page.
+            I'm eager to hear from you and explore new opportunities.
           </p>
         </div>
       </header>
@@ -94,9 +98,15 @@ function App() {
           <div className="Explenation">
             <p>
               <h3>The Calculator Project</h3>
-              At the Time I worked in Netafim, I was given the task of creating
-              a windows application which it's purpose is to calculate the
-              pressure and flow rate of a tube with drippers in it.
+              While working at Netafim, I was presented with an exciting
+              opportunity to showcase my abilities as a software developer. I
+              was tasked with creating a comprehensive Windows application
+              designed to calculate the pressure and flow rate of tubes equipped
+              with drippers. This project required a strong understanding of
+              complex calculations and the ability to translate them into a
+              functional program. I am confident in my ability to deliver a
+              solution that exceeded expectations and demonstrated my technical
+              prowess.
             </p>
           </div>
         </div>
@@ -104,11 +114,11 @@ function App() {
           <div className="Explenation">
             <p>
               <h3>My First Ecommerce</h3>
-              After I enlisted from the army, I wanted to join to a course that
-              will help me find my first job in the high-tech industry. I found
-              a course from Scale-Up and it's name was Cyber4s. After only two
-              months in, with no experience in this world I created this
-              ecommerce right here.
+              After leaving the army, I enrolled in Scale-Up's Cyber4s course to
+              jumpstart my high-tech career. Within just 2 months, I
+              successfully created my first ecommerce project despite no prior
+              experience. This achievement showcases the impact of the course
+              and my determination to succeed.
             </p>
           </div>
           <div className="cutted">
@@ -122,14 +132,16 @@ function App() {
           <div className="Explination">
             <h3>About Me</h3>
             <p>
-              As I served in the army, there was a saying that "One can get to
-              his destination fast, but many will reach far as one could never
-              dream" I learned that team work can make the dreamwork. By
-              completing our task in unbelivable conditions.
-              <br></br>
-              And of course, if I can, I'm working with as many people as I can
-              even today, I see teamwork as a MUST for achiving the best results
-              that we can get.
+              My time in the army taught me the invaluable lesson that "teamwork
+              makes the dream work." I experienced firsthand the difference that
+              can be made when individuals work together towards a common goal,
+              even under challenging conditions. This realization has stayed
+              with me and continues to guide me in all areas of my life. I
+              believe that by working together, we can accomplish far more than
+              we could ever achieve alone, and this is why I place a strong
+              emphasis on teamwork. Whether in personal or professional
+              settings, I strive to collaborate and bring people together in
+              order to achieve the best possible outcomes.
             </p>
           </div>
         </div>
@@ -137,10 +149,12 @@ function App() {
           <img alt="Vehicle-Hatzerim " src={VehicleHatzerimPic}></img>
           <h1>Vehicle Hatzerim</h1>
           <p>
-            Vehicle Hatzerim - An app that will help to coorolate with 700
-            members that need to use a fleet of vehicles that is assembled from
-            ~120 vehicles. Vehicle Hatzerim was my last project in the course
-            which I continued while seeking for a job.
+            Vehicle Hatzerim was a challenging and exciting project I took on as
+            part of my coursework. The app was designed to streamline
+            coordination and scheduling for a fleet of over 120 vehicles among a
+            community of 700 members. Despite the complexity of the task, I was
+            determined to bring this project to life and continued working on it
+            even after the course ended.
             <br></br> In this project I Practiced with these technologies:
             <br></br>
           </p>
@@ -166,16 +180,27 @@ function App() {
           </div>
           <p>
             <br></br>
-            While looking for a place to work at, I started working on this
-            project voluntarily with no one from the kibbutz asking me to do it,
-            just to see how much I can take on myself at the time.
+            As I was on the hunt for employment opportunities, I took it upon
+            myself to start working on a project voluntarily. I wanted to
+            challenge myself and see what I was capable of tackling on my own.
+            This project was not assigned to me by anyone from the kibbutz,
+            rather it was a personal initiative driven by my own ambition and
+            desire to showcase my skills. By taking on this project, I
+            demonstrated my initiative, drive, and determination to continuously
+            improve and learn. I believe this experience has been a valuable
+            addition to my portfolio and has set me apart from other job
+            seekers.
             <br></br>
             <br></br>
-            For the first time I was dealing with a project on that scale, I
-            wanted to make a newer service instead of the one we allready had,
-            in order to become better at these technologies and gain experience.
-            Unfortunatly, I couldnt finish it because I allready started to work
-            in Netafim.
+            My first experience with a large-scale project was both exciting and
+            challenging. I was eager to take on the challenge and saw it as an
+            opportunity to enhance my skills and gain valuable experience in
+            cutting-edge technologies. My goal was to create a new and improved
+            service, rather than relying on outdated solutions. Despite my best
+            efforts, I was unable to complete the project due to my acceptance
+            of a job at Netafim. Nevertheless, I view this experience as a
+            valuable learning opportunity and am grateful for the skills and
+            knowledge I gained through my work on the project.
           </p>
         </div>
       </div>
@@ -184,21 +209,31 @@ function App() {
           <img alt="Planet Wars" src={PlanetWars}></img>
           <h3>Planet Wars</h3>
           <p>
-            Once in the middle of the course that I did, we visisted Pagyea, one
-            of the thing we did there was a hackaton. In the hackaton we
-            splitted up for groups of three people and in order to win we needed
-            to creat the smartest AI. We absolutly gave a hard time to every
-            opponent we had and had a good time, but alas we lost to someone who
-            worked 3 minutes on his AI and didnt expected to win.
+            During the course, I had the opportunity to participate in a
+            hackathon at Pangeya. The event was structured as a competition
+            among groups of three, with the goal of creating the most
+            intelligent AI solution. Our team was determined and put in a lot of
+            effort, but despite our hard work, we were ultimately bested by
+            another group who had unexpectedly created a winning solution in
+            just three minutes. Although we didn't win, I viewed the experience
+            as a valuable learning opportunity and a fun challenge. I
+            appreciated the opportunity to collaborate with my team and push my
+            skills to the limit, and I came away with a newfound appreciation
+            for the power and potential of AI.
           </p>
         </div>
         <div className="Specific-Project-Div">
           <img alt="Space Invaders" src={SpaceInvaders}></img>
           <h3>Space Invaders</h3>
           <p>
-            For one of our projects in the course we needed to make a game in
-            python. We made space invaders, what better use of a good weekend if
-            not creating a legandary game by ourselves.
+            During the course, we were assigned a project to develop a game
+            using Python. Our instructors provided us with the challenge of
+            creating the classic game, Space Invaders. This project gave us a
+            chance to showcase our Python skills and bring a timeless game to
+            life. The process was both fun and educational, as we were able to
+            apply what we had learned in the course to a real-world scenario.
+            The end result was a completed game that we could add to our
+            portfolios, and an enjoyable and rewarding experience.
           </p>
         </div>
       </div>
